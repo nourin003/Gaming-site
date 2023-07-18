@@ -1,0 +1,17 @@
+/*header styles*/
+header{
+    height: 130px;
+    width: auto;
+    padding: 50px 240px;
+    background-color:#FFF;;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav>div{
+    display: flex;
+    gap: 15px;
+}
