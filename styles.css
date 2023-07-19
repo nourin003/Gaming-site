@@ -196,6 +196,47 @@ nav span{
     font-weight: 500;
     color: #534C64;
 }
+.play-container{
+    display: flex;
+    align-items: center;
+   
+}
+.play-img-container{
+    padding-left: 90px;
+}
+.play-img1{
+    width: 550px;
+    height: 450px;
+    border-radius: 8px;
+}
+.play-img2{
+    width: 218px;
+    height: 265px;
+    border-radius: 8px;
+    margin: 0px;
+    margin-left: 400px;
+    position: relative;
+    bottom: 180px;
+}
+.play-content{
+    padding-left: 70px;
+    padding-right: 90px;
+    padding-bottom: 80px;
+    
+   
+}
+.play-content-title{
+    font-size: 48px;
+    font-weight: 700;
+}
+.play-span{
+    color: #d942ff;
+}
+.play-content-text{
+    font-size: 18px;
+    font-weight: 400;
+    color: #534C64;
+}
     
 
     
