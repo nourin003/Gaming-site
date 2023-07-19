@@ -10,6 +10,9 @@
         font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
     }*/
+    *{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
 
 /*header styles*/
 
@@ -19,7 +22,7 @@ header{
     width: auto;
     padding: 50px 240px;
     background-color:#FFF;
-    font-family:'Open Sans', 'sans-serif' ;
+    
 }
 nav{
     display: flex;
@@ -35,7 +38,7 @@ nav{
     font-size: 26px;
     font-weight: 300;
     text-align: center;
-    font-family: "Work Sans";
+    
 }
 .game-icon{
     width: 80px;
@@ -53,7 +56,7 @@ nav span{
     gap: 30px;
     font-size: 17px;
     font-weight: 400;
-    font-family:'Open Sans', 'sans-serif' ;
+    
 }
 .follow-button{
     display: flex;
@@ -75,27 +78,27 @@ nav span{
 /*main sections */
 /*goat*/
 .banner-section{
-    height: 700px;
+    height: 500px;
     width: auto;
-    padding: 0;
+    margin-top: 50px;
+   padding: 50px 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*background-color: #FFF;*/
+    background-color: #FFF;
 }
 .banner-content{
     background-image: url(./images/Group\ 14.png);
     height: 700px;
     width: 900px;
-   
-   /* padding-left: 50px;*/
-  
+    
 }
+
 .banner-title{
     text-align: center;
-color: #0B0223;
-font-size: 35px;
-font-weight: 600;
+    color: #0B0223;
+    font-size: 35px;
+    font-weight: 600;
 
 
 
@@ -110,7 +113,7 @@ font-weight: 600;
     
 }
 .banner-list{
-    border: 1px solid #FFF;
+    
     
     
     font-size: 20px;
@@ -129,6 +132,7 @@ font-weight: 600;
     color: #FFFFFF;
     background-color: #FF42A5;
     border: none;
+    cursor: pointer;
 }
 .banner-button2{
     margin-left: 10px;
@@ -138,6 +142,57 @@ font-weight: 600;
     color: #FFFFFF;
     background-color: #4EC5F7;
     border: none;
+    cursor: pointer;
+}
+.games{
+    padding: 200px 50px;
+}
+.games-content{
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+.games-title{
+    font-size: 48px;
+    font-family: 700px;
+    
+}
+#funny-text{
+    color: #FF42A5;
+}
+.games-text{
+    font-size: 18px;
+    font-weight: 400;
+    color: #534C64;
+}
+.games-img{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   margin: 0px auto;
+   padding: 50px 100px;
+}
+.games-img1{
+    width: 342px;
+    height: 400px;
+}
+.games-img2{
+    width: 342px;
+    height: 400px; 
+     
+}
+.games-img3{
+    width: 342px;
+    height: 400px;
+}
+.games-img4{
+    width: 342px;
+    height: 400px;
+}
+.img-caption{
+    font-size: 20px;
+    font-weight: 500;
+    color: #534C64;
 }
     
 
@@ -161,12 +216,26 @@ font-weight: 600;
         padding: 20px;
     }
     nav,
-    .nav-list
+    .nav-list,
+    .banner-section
     {
-        flex-direction: column;
-       
+        flex-direction: column;  
     }
-}
+    .banner-section{
+        margin-top: 150px;
+        
+       
+       
+        
+    }
+    .banner-content{
+         
+    }
+   
+    
+    }
+
+
 
 
 /*tablet device*/
@@ -175,9 +244,14 @@ font-weight: 600;
         padding: 20px;
     }
     nav,
-    .nav-list
+    .nav-list,
+    .banner-section
     {
         flex-direction: column;
        
     }
-}  
+    .banner-section{
+        margin-top: 150px;
+        padding: 80px;
+} 
+} 
