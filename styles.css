@@ -238,10 +238,12 @@ nav span{
     color: #534C64;
 }
 .option-container{
-    height: 427px;
+    height: 400px;
     width: auto;
     margin: 20px;
     padding: 30px;
+    margin-bottom:0 ;
+    padding-bottom: 0;
 }
 .option-container-1{
     display: flex;
@@ -289,6 +291,7 @@ nav span{
     height: 60px;
     border-radius: 50px;
     color: #FF42A5;
+    cursor: pointer;
 }
 #option-container-img-3{
 height: 40px;
@@ -361,7 +364,61 @@ height: 40px;
     height: 40px;
     }
 
+  footer{
+    height: 500px;
+    background-color: #0B0223;
+    padding: 0;
+    margin: 0;
+  } 
+  .footer-container{
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+    padding: 100px;
+  }
+  .footer-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+     
+  }
+  .footer-title{
+    color: #FFF;
+    font-size: 30px;
+   
     
+  }
+  .footer-span{
+    color:#FF42A5
+  } 
+  .footer-list-1{
+    display: flex;
+    justify-content: space-around;
+    color: #FFF;
+    list-style: none;
+    
+  }
+  .footer-img{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 15px;
+  }
+  #footer-img-1{
+    height: 40px;
+  }
+  .footer-list-2{
+    display: flex;
+    justify-content: space-around;
+    color:rgba(255, 255, 255, 0.60);
+    list-style: none;
+    margin: 15px;
+  }
+  .footer-text{
+    color:rgba(255, 255, 255, 0.60);
+    margin-top: 30px;
+  }
 
     
 
@@ -386,7 +443,9 @@ height: 40px;
     .nav-list,
     .banner-section,
     .games-img,
-    .play-container
+    .play-container,
+    .option-container-1,
+    .option-container-2
     {
         flex-direction: column;  
     }
@@ -421,7 +480,11 @@ height: 40px;
         padding-right: 0;
         padding-left: 0;
         padding-bottom: 0;
-    }   
+    }
+    .option-container-1,
+.option-container-2{
+    gap: 7px;
+}
        
        
         
@@ -470,5 +533,9 @@ figcaption{
 .play-content{
     padding-right: 0px;
     padding-left: 0px;
+}
+.option-container-1,
+.option-container-2{
+    gap: 7px;
 }
 }
