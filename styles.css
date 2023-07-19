@@ -67,6 +67,7 @@ nav span{
     font-size: 17px;
     font-weight: 500;
     border: none;
+    cursor:progress;
     
     
    
@@ -86,11 +87,12 @@ nav span{
     background-image: url(./images/Group\ 14.png);
     height: 700px;
     width: 900px;
-    text-align: center;
+   
    /* padding-left: 50px;*/
   
 }
 .banner-title{
+    text-align: center;
 color: #0B0223;
 font-size: 35px;
 font-weight: 600;
@@ -99,6 +101,7 @@ font-weight: 600;
 
 }
 .banner-name{
+    text-align: center;
     font-size: 85px;
     font-family: 500;
    color: #d942ff;
@@ -107,13 +110,37 @@ font-weight: 600;
     
 }
 .banner-list{
+    border: 1px solid #FFF;
+    
+    
     font-size: 20px;
     font-weight: 500;
     color: #534C64;
-    list-style: none;
+   margin-left: 230px;
 }
 
+
+.banner-button1{
+    margin-left: 230px;
+    display: inline-flex;
+    padding: 18px 29px;
+    border-radius: 48px;
+    gap: 10px;
+    color: #FFFFFF;
+    background-color: #FF42A5;
+    border: none;
+}
+.banner-button2{
+    margin-left: 10px;
+    display: inline-flex;
+    padding: 18px 19px;
+    border-radius: 48px; 
+    color: #FFFFFF;
+    background-color: #4EC5F7;
+    border: none;
+}
     
+
     
 
     
