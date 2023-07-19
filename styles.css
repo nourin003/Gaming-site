@@ -1,15 +1,19 @@
-*{
-    font-family:'Open Sans', 'sans-serif' ;
-    font-family: 'Work Sans', 'sans-serif';
-}
+ /**{
+        font-family:'Open Sans', 'sans-serif' ;
+        font-family: 'Work Sans', 'sans-serif';
+    }*/
+
 
 
 /*header styles*/
+
+   
 header{
     height: 130px;
     width: auto;
     padding: 50px 240px;
-    background-color:#FFF;;
+    background-color:#FFF;
+    font-family:'Open Sans', 'sans-serif' ;
 }
 nav{
     display: flex;
@@ -17,22 +21,25 @@ nav{
     align-items: center;
     
 }
-nav>div{
+.game-heading{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 15px;
     font-size: 26px;
     font-weight: 300;
     text-align: center;
+    font-family: "Work Sans";
 }
 .game-icon{
     width: 80px;
     height: 40px;
-    margin-top: 26px;
+   /* margin-top: 26px;*/
 }
 nav span{
     color: #FF42A5;
 }
-nav>ul{
+.nav-list{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,6 +47,7 @@ nav>ul{
     gap: 30px;
     font-size: 17px;
     font-weight: 400;
+    font-family:'Open Sans', 'sans-serif' ;
 }
 .follow-button{
     display: flex;
@@ -59,3 +67,27 @@ nav>ul{
 }
 /*main sections */
 /*goat*/
+.banner-section{
+    height: 700px;
+    width: auto;
+    background-color: #FFF;;
+}
+
+
+
+
+
+
+
+/*mobile devices*/
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav,
+    .nav-list
+    {
+        flex-direction: column;
+       
+    }
+}
