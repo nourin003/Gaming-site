@@ -70,10 +70,10 @@ nav span{
     font-size: 17px;
     font-weight: 500;
     border: none;
-    cursor:progress;
-    
-    
-   
+    cursor:progress;   
+}
+.follow-button:hover{
+    color: #FF42A5;
 }
 /*main sections */
 /*goat*/
@@ -267,6 +267,9 @@ nav span{
     gap: 7px;
 
 }
+.option-1:hover{
+  color: #FF42A5;
+}
 #option-container-img-1{
     height: 40px;
     }
@@ -278,6 +281,9 @@ nav span{
     gap: 7px;
 
 }
+.option-2:hover{
+    color: #FF42A5;
+  }
 #option-container-img-2{
     height: 40px;
     }
@@ -291,9 +297,12 @@ nav span{
     width: 200px;
     height: 60px;
     border-radius: 50px;
-    color: #FF42A5;
+    
     cursor: pointer;
 }
+.option-3:hover{
+    color: #FF42A5;
+  }
 #option-container-img-3{
 height: 40px;
 }
@@ -306,6 +315,9 @@ height: 40px;
 
 
 }
+.option-4:hover{
+    color: #FF42A5;
+}
 #option-container-img-4{
     height: 40px;
     }
@@ -316,6 +328,9 @@ height: 40px;
     align-items: center;
     gap: 7px;
 
+}
+.option-5:hover{
+    color: #FF42A5;
 }
 #option-container-img-5{
     height: 40px;
@@ -328,6 +343,9 @@ height: 40px;
     gap: 7px;
 
 }
+.option-6:hover{
+    color: #FF42A5;
+  }
 #option-container-img-6{
     height: 40px;
     }
@@ -339,6 +357,9 @@ height: 40px;
     gap: 7px;
 
 }
+.option-7:hover{
+    color: #FF42A5;
+  }
 #option-container-img-7{
     height: 40px;
     }
@@ -350,6 +371,9 @@ height: 40px;
     gap: 7px;
 
 }
+.option-8:hover{
+    color: #FF42A5;
+  }
 #option-container-img-8{
     height: 40px;
     }
@@ -361,6 +385,9 @@ height: 40px;
     gap: 7px;
 
 }
+.option-9:hover{
+    color: #FF42A5;
+  }
 #option-container-img-9{
     height: 40px;
     }
