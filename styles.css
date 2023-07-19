@@ -1,3 +1,9 @@
+*{
+    font-family:'Open Sans', 'sans-serif' ;
+    font-family: 'Work Sans', 'sans-serif';
+}
+
+
 /*header styles*/
 header{
     height: 130px;
@@ -14,4 +20,42 @@ nav{
 nav>div{
     display: flex;
     gap: 15px;
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
 }
+.game-icon{
+    width: 80px;
+    height: 40px;
+    margin-top: 26px;
+}
+nav span{
+    color: #FF42A5;
+}
+nav>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.follow-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    gap: 10px;
+    background-color: rgba(11, 2, 35, 0.10);
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    
+    
+   
+}
+/*main sections */
+/*goat*/
