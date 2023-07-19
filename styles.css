@@ -3,7 +3,13 @@
         font-family: 'Work Sans', 'sans-serif';
     }*/
 
+    /*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Work+Sans:wght@400;500;700;800&display=swap');
 
+    
+    *{
+        font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    }*/
 
 /*header styles*/
 
@@ -70,8 +76,51 @@ nav span{
 .banner-section{
     height: 700px;
     width: auto;
-    background-color: #FFF;;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background-color: #FFF;*/
 }
+.banner-content{
+    background-image: url(./images/Group\ 14.png);
+    height: 700px;
+    width: 900px;
+    text-align: center;
+   /* padding-left: 50px;*/
+  
+}
+.banner-title{
+color: #0B0223;
+font-size: 35px;
+font-weight: 600;
+
+
+
+}
+.banner-name{
+    font-size: 85px;
+    font-family: 500;
+   color: #d942ff;
+   margin-bottom: 0;
+
+    
+}
+.banner-list{
+    font-size: 20px;
+    font-weight: 500;
+    color: #534C64;
+    list-style: none;
+}
+
+    
+    
+
+    
+
+    
+
+    
 
 
 
@@ -91,3 +140,17 @@ nav span{
        
     }
 }
+
+
+/*tablet device*/
+@media screen and (min-width:576px) and (max-width:992px) {
+    header{
+        padding: 20px;
+    }
+    nav,
+    .nav-list
+    {
+        flex-direction: column;
+       
+    }
+}  
